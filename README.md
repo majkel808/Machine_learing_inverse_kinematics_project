@@ -19,13 +19,27 @@ The project is written in Python and aims to determine the motion of a 3R robot 
 - [Contact](#contact)
 - 
 ## Detiled description
-Outline the structure of the project, including directories, main files, and dependencies.
+The aim of the project was to gain a better understanding of the principles of describing robot kinematics and their mathematical representation, enabling the determination of the end effector position of the robot arm and subsequently its inverse kinematics.
 
+The stages of the project were:
+
+- Development of the forward kinematics model for the 3R robotic arm.
+- Creation of an application allowing for the control of the robot arm's position using sliders.
+- Script creation to generate datasets for machine learning purposes.
+- Implementation of a linear regression neural network model.
+- Writing a script to generate trajectories for the XYZ position of the end effector and feeding them into the model.
+- Utilizing predicted angular positions of the robotic joints to animate the robot's movement.
+- 
 ## Project Structure
-Outline the structure of the project, including directories, main files, and dependencies.
+Under the directory named "whole_project," you will find all the necessary files to execute the linear regression model, as well as all the scripts required to animate the movement of the robot.
+
+In the remaining folders, files are grouped for easy organization.
 
 ## Features
-List the key features and functionalities of the project.
+- model regresji liniowej dla robota 3R gotowy do użytku
+- skrypt animacyjny 
+- skrypt do testowania forward kinematics za pomocą sliderow
+
 
 ## Technologies Used
 Specify the technologies and libraries used in the project, including programming languages, frameworks, and tools.
