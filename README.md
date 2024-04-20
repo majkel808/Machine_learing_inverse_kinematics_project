@@ -13,7 +13,7 @@ The project is written in Python and aims to determine the motion of a 3R robot 
 - [Future Work](#future-work)
 
   
-## Detiled description
+## Detailed description
 The aim of the project was to gain a better understanding of the principles of describing robot kinematics and their mathematical representation, enabling the determination of the end effector position of the robot arm and subsequently its inverse kinematics.
 
 The stages of the project were:
