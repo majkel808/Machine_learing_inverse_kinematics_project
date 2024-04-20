@@ -24,7 +24,7 @@ The stages of the project were:
 - Implementation of a linear regression neural network model.
 - Writing a script to generate trajectories for the XYZ position of the end effector and feeding them into the model.
 - Utilizing predicted angular positions of the robotic joints to animate the robot's movement.
-- 
+
 ## Project Structure
 Under the directory named "whole_project," you will find all the necessary files to execute the linear regression model, as well as all the scripts required to animate the movement of the robot.
 
