@@ -8,7 +8,6 @@ The project is written in Python and aims to determine the motion of a 3R robot 
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Methodology](#methodology)
 - [Implementation Details](#implementation-details)
 - [Results](#results)
 - [Future Work](#future-work)
@@ -36,9 +35,15 @@ Under the directory named "whole_project," you will find all the necessary files
 In the remaining folders, files are grouped for easy organization.
 
 ## Features
-- model regresji liniowej dla robota 3R gotowy do użytku
-- skrypt animacyjny 
-- skrypt do testowania forward kinematics za pomocą sliderow
+- Ready-to-use linear regression model for the 3R robot
+- Animation script
+- Script for testing forward kinematics using sliders
+
+### Script for testing forward kinematics using sliders
+
+<img src="https://github.com/majkel808/Machine_learing_inverse_kinematics_project/assets/163661382/195115ed-6ff4-4937-9419-265c6bbca88a" alt="git_1" width="400"/>
+
+<img src="https://github.com/majkel808/Machine_learing_inverse_kinematics_project/assets/163661382/9254ef45-a381-4582-918f-5fc57fa88a0e" alt="git_2" width="400"/>
 
 
 ## Technologies Used
