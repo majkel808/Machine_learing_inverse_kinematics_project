@@ -60,21 +60,15 @@ The entire project is written in Python, utilizing, among others:
 A script was used to generate the dataset, ensuring a large number of points in space with known angles and XYZ positions. This allowed the neural network model to predict the angular positions of the robot's joints in order to achieve the desired XYZ coordinates. TensorFlow library was employed for this purpose. The model requires further optimization and development.
 
 ## Results
-The model's learning outcomes were evaluated based on two parameters: the loss function value (LOSS), expected to decrease, and the root mean square error (RMSE) for the model. Both metrics are illustrated below."
+The model's learning outcomes were evaluated based on two parameters: the loss function value (LOSS), expected to decrease, and the root mean square error (RMSE) for the model. Both metrics are illustrated below.
+
+<img src="https://github.com/majkel808/Machine_learing_inverse_kinematics_project/assets/163661382/27698bb4-1457-4754-8b28-e89c6e2724b5" alt="git_1" width="400"><br/>
+
+<img src="https://github.com/majkel808/Machine_learing_inverse_kinematics_project/assets/163661382/d1f7aedd-df32-4bbf-ad67-26f06c358195" alt="git_2" width="400"/>
+
+
 ## Future Work
-Outline potential future enhancements or additions to the project.
+The plan includes the development of a new dataset to optimize the model learning algorithm. Next, existing scripts should be merged into one large project that allows for real-time trajectory determination and robot position generation based on obtained predictions. Finally, functionality should be expanded to include additional degrees of freedom up to 6DOF.
 
-## Usage
-Provide instructions on how to use the project, including installation steps and examples.
 
-## Contributors
-List the contributors to the project, including their roles and contributions.
 
-## License
-Specify the license under which the project is released.
-
-## Acknowledgements
-Acknowledge any individuals, organizations, or resources that contributed to the project.
-
-## Contact
-Provide contact information for users to reach out for questions or feedback.
