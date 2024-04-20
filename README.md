@@ -11,12 +11,8 @@ The project is written in Python and aims to determine the motion of a 3R robot 
 - [Implementation Details](#implementation-details)
 - [Results](#results)
 - [Future Work](#future-work)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
-- 
+
+  
 ## Detiled description
 The aim of the project was to gain a better understanding of the principles of describing robot kinematics and their mathematical representation, enabling the determination of the end effector position of the robot arm and subsequently its inverse kinematics.
 
@@ -67,7 +63,7 @@ The model's learning outcomes were evaluated based on two parameters: the loss f
 <img src="https://github.com/majkel808/Machine_learing_inverse_kinematics_project/assets/163661382/d1f7aedd-df32-4bbf-ad67-26f06c358195" alt="git_2" width="400"/>
 
 You can watch the animated movement of the robot, with joint angles predicted by the neural network model on YouTube:
-[![Animation Results](https://img.youtube.com/vi/qxhOquYd-xE/maxresdefault.jpg)](https://youtu.be/qxhOquYd-xE)
+[![Click to watch](https://img.youtube.com/vi/qxhOquYd-xE/maxresdefault.jpg)](https://youtu.be/qxhOquYd-xE)
 
 ## Future Work
 The plan includes the development of a new dataset to optimize the model learning algorithm. Next, existing scripts should be merged into one large project that allows for real-time trajectory determination and robot position generation based on obtained predictions. Finally, functionality should be expanded to include additional degrees of freedom up to 6DOF.
