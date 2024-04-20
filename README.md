@@ -42,14 +42,17 @@ In the remaining folders, files are grouped for easy organization.
 
 
 ## Technologies Used
-Specify the technologies and libraries used in the project, including programming languages, frameworks, and tools.
+The entire project is written in Python, utilizing, among others:
 
-## Methodology
-Explain the approach or methodology used to develop the inverse kinematics model, including any machine learning algorithms or techniques.
+- NumPy
+- Matplotlib
+- Pandas
+- Scikit-learn
+- TensorFlow
 
+  
 ## Implementation Details
-Provide details on how the inverse kinematics model was implemented, including code snippets or explanations of important components.
-
+A script was used to generate the dataset, ensuring a large number of points in space with known angles and XYZ positions. This allowed the neural network model to predict the angular positions of the robot's joints in order to achieve the desired XYZ coordinates. TensorFlow library was employed for this purpose. The model requires further optimization and development.
 ## Results
 Discuss the results obtained from the project, including the performance of the inverse kinematics model and any insights gained.
 
